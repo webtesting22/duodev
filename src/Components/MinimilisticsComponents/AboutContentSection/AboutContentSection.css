@@ -1,0 +1,33 @@
+.expertiseHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fadeDownAnimation {
+    animation: fadeDown 2s ease forwards;
+}
+
+.btn-container-flex{
+    display: flex;
+    align-items: center;
+}
+@keyframes fadeDown {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(20px); /* Adjust distance as needed */
+    }
+}
+
+.Main-work-showcase-home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Main-work-showcase-home .left-side-container,
+.Main-work-showcase-home .right-side-container{
+    width: 100%;
+}
