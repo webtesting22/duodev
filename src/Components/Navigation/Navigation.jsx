@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navigation.css";
-import Checks from "../../../public/Images/BackChecksImage.svg";
-
+// import Checks from "../../../public/Images/BackChecksImage.svg";
+import { Link } from "react-router-dom";
 const Navigation = () => {
     const [isDropdownVisible, setIsDropdownVisible] = useState(false); // State to manage dropdown visibility
     const [isMouseOverDropdown, setIsMouseOverDropdown] = useState(false); // State to track mouse over dropdown
@@ -48,38 +48,46 @@ const Navigation = () => {
                         <h5>Hello</h5>
                     </div>
                     <div className="right-side-links-navigation">
-                        <ul>
-                            {NavigationLinks.map((item, index) => (
-                                <li
-                                    key={index}
-                                    onMouseEnter={item.hasDropdown ? handleMouseEnter : null}
-                                    onMouseLeave={item.hasDropdown ? handleMouseLeave : null}
+                        <div className="PCNavigation">
+                            <ul className={isDarkMode ? "nav-links-dark" : "nav-links-light"}>
+                                {NavigationLinks.map((item, index) => (
+                                    <Link to={`/${item.link}`} key={index}>
+                                        <li
+
+                                            onMouseEnter={item.hasDropdown ? handleMouseEnter : null}
+                                            onMouseLeave={item.hasDropdown ? handleMouseLeave : null}
+                                        >
+                                            {item.link}
+                                        </li>
+                                    </Link>
+                                ))}
+                            </ul>
+                            {isDropdownVisible && (
+                                <div
+                                    className="dropdown-container"
+                                    onMouseEnter={handleDropdownMouseEnter}
+                                    onMouseLeave={handleDropdownMouseLeave}
                                 >
-                                    {item.link}
-                                </li>
-                            ))}
-                        </ul>
-                        {isDropdownVisible && (
-                            <div
-                                className="dropdown-container"
-                                onMouseEnter={handleDropdownMouseEnter}
-                                onMouseLeave={handleDropdownMouseLeave}
-                            >
-                                {/* Dropdown content goes here */}
-                                {/* Example: */}
-                                <div className="inside-dropdown-content">
-                                    <div>
-                                        <h4>WebWork</h4>
-                                    </div>
-                                    <div>
-                                        <h4>AppWork</h4>
+                                    {/* Dropdown content goes here */}
+                                    {/* Example: */}
+                                    <div className="inside-dropdown-content">
+                                        <div>
+                                            <h4>WebWork</h4>
+                                        </div>
+                                        <div>
+                                            <h4>AppWork</h4>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        )}
-                        <button className="btn-style-border" onClick={toggleDarkMode}>
-                            {isDarkMode ? "Switch Light" : "Switch Dark"}
-                        </button>
+                            )}
+                            <button className="btn-style-border" onClick={toggleDarkMode}>
+                                {isDarkMode ? "Switch Light" : "Switch Dark"}
+                            </button>
+
+                        </div>
+                        <div className="hurburgerMenuBtn">
+                            hiii
+                        </div>
                     </div>
                 </header>
             </nav>

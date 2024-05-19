@@ -1,5 +1,5 @@
 .section-heading-style {
-    font-size: 16rem;
+    font-size: 13rem;
     text-align: center;
     background-image: linear-gradient(145deg, #e06b91, #f19742);
     -webkit-background-clip: text;
@@ -186,4 +186,56 @@
         left: calc(100% + 50px);
         /* Ending position */
     }
+}
+
+@media (max-width:900px){
+    .thirdBox {
+        background-color: transparent;
+        position: absolute;
+        right: 0;
+        bottom: 248px;
+        /* background-color: black; */
+        backdrop-filter: blur(5px);
+        width: 100%;
+    }
+    .absoluteContainerCard {
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        background-color: #00000005;
+        left: 24%;
+        top: -120px;
+        backdrop-filter: blur(5px);
+        border-radius: 20px;
+    }
+    
+    .MainserviceRow {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0px;
+        position: relative;
+    }
+    .section-heading-style {
+        font-size: 6rem;
+        text-align: center;
+        background-image: linear-gradient(145deg, #e06b91, #f19742);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        /* opacity: 0.1; */
+        font-weight: lighter;
+    
+    }
+    .imagesAndTitleContainer {
+        position: relative;
+        height: 50vh;
+    }
+    
+.AboutCompanyServices {
+    padding: 50px 50px;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+    
 }

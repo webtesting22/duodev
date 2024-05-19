@@ -53,3 +53,28 @@
     width: 50%;
 
 }   
+
+.right-side-links-navigation{
+    display: block;
+}
+.hurburgerMenuBtn{
+    display: none;
+}
+.PCNavigation{
+    display: flex;
+}
+.nav-links-dark a{
+    color: white;
+}
+.nav-links-light a{
+    color: black;
+}
+ @media (max-width:769px){
+    #top-navigation-header .right-side-links-navigation .PCNavigation {
+        display: none;
+        position: relative;
+    }
+    .hurburgerMenuBtn{
+        display: block;
+    }
+ }

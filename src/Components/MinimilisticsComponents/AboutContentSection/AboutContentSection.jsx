@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 const AboutContentSection = () => {
     const [scrollY, setScrollY] = useState(0);
-
     useEffect(() => {
         const handleScroll = () => {
             setScrollY(window.scrollY);
@@ -93,6 +92,7 @@ const AboutContentSection = () => {
                         <div className="imagesAndTitleContainer">
                             <h1>Web <br /><span>Dev</span></h1>
                             <div className="absoluteContainerCard parallax" style={{ transform: `translateY(${scrollY * 0.1}px)` }}>
+                               
                                 <button className="btn-style-transparent">Hrllo</button>
                             </div>
                         </div>
