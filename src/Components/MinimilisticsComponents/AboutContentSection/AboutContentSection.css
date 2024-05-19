@@ -1,33 +1,189 @@
-.expertiseHeading{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.fadeDownAnimation {
-    animation: fadeDown 2s ease forwards;
+.section-heading-style {
+    font-size: 16rem;
+    text-align: center;
+    background-image: linear-gradient(145deg, #e06b91, #f19742);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* opacity: 0.1; */
+    font-weight: lighter;
+
 }
 
-.btn-container-flex{
-    display: flex;
-    align-items: center;
+.AboutCompanyServices {
+    padding: 50px 50px;
+    /* background-color: red; */
 }
-@keyframes fadeDown {
+
+
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 100px;
+    font-size: 24px;
+}
+
+.firstBox {
+    background-color: red;
+}
+
+.secondBox {
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    right: 33%;
+    backdrop-filter: blur(6px);
+}
+
+.thirdBox {
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    bottom: 150px;
+    /* background-color: black; */
+    backdrop-filter: blur(5px);
+    width: 100%;
+}
+
+/* .AboutCompanyServices .firstBox,
+.AboutCompanyServices .secondBox,
+.AboutCompanyServices .thirdBox {
+    position: absolute;
+    height: 100px;
+    width:100px;
+    background-color: black;
+    backdrop-filter: blur(5px);
+}
+.AboutCompanyServices .firstBox{
+    right: 30%;
+    top: 0;
+}
+.AboutCompanyServices .secondBox{
+    right: 5%;
+ bottom: 10%;
+}
+.AboutCompanyServices .thirdBox{
+    bottom: 0px;
+    right: 50%;
+} */
+.MainserviceRow {
+    display: flex;
+    padding: 40px 0px;
+    position: relative;
+}
+
+.imagesAndTitleContainer {
+    position: relative;
+}
+
+.imagesAndTitleContainer h1 {
+    font-size: 7rem;
+    font-weight: 400;
+    background-image: linear-gradient(145deg, #e06b91, #f19742);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.imagesAndTitleContainer h1 span {
+    margin-left: 50px;
+}
+
+.imagesAndTitleContainer,
+.keyPointsContainer {
+    width: 100%;
+}
+
+.absoluteContainerCard {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: #00000005;
+    left: 24%;
+    top: -30px;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+
+.SEOFreidlyLinks h5 {
+    font-size: 1.20rem;
+    background-image: linear-gradient(145deg, #e06b91, #f19742);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 1rem;
+}
+
+.SEOFreidlyContent p {
+    font-size: 1.10rem;
+}
+
+.content-row {
+    margin: 20px 0px;
+}
+
+.absoluteContainerCard button {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+}
+
+.rocket-container {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.rocket-path {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.rocket {
+    position: absolute;
+    width: 25px;
+    height: 1px;
+    background-color:rgb(51, 51, 51);
+    /* Rocket color */
+    border-radius: 50%;
+    animation: moveRocket 5s linear infinite;
+    /* Adjust animation duration */
+}
+
+.rocket-path hr {
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+    opacity: 0.2;
+}
+
+@keyframes moveRocket {
     0% {
-        opacity: 0;
-        transform: translateY(0);
+        left: -50px;
+        /* Starting position */
     }
-    100% {
-        opacity: 1;
-        transform: translateY(20px); /* Adjust distance as needed */
-    }
-}
 
-.Main-work-showcase-home{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.Main-work-showcase-home .left-side-container,
-.Main-work-showcase-home .right-side-container{
-    width: 100%;
+    100% {
+        left: calc(100% + 50px);
+        /* Ending position */
+    }
 }
