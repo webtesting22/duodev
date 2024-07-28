@@ -1,0 +1,14 @@
+.TopBarHeadings{
+    height: 100vh;
+}
+.TopBarHeading h1{
+    transform-origin: 0 0;
+    /* color: black; */
+    text-transform: uppercase;
+    font-family: Clashgrotesk, sans-serif;
+    font-size: 120px;
+    font-weight: 500;
+    line-height: 132px;
+    text-align: start;
+    font-weight: 500;
+}
