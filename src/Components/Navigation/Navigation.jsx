@@ -10,9 +10,9 @@ const Navigation = () => {
     const NavigationLinks = [
         { link: "Home" },
         { link: "AboutUs" },
-        { link: "Blogs" },
-        { link: "Works", hasDropdown: true }, // Add hasDropdown property for link with dropdown
-        { link: "Supporters" }
+        // { link: "Blogs" },
+        // { link: "Works", hasDropdown: true }, // Add hasDropdown property for link with dropdown
+        // { link: "Supporters" }
     ];
 
     const handleMouseEnter = () => {

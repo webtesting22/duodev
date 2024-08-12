@@ -1,7 +1,8 @@
-.TopBarHeadings{
+.TopBarHeadings {
     height: 100vh;
 }
-.TopBarHeading h1{
+
+.TopBarHeading h1 {
     transform-origin: 0 0;
     /* color: black; */
     text-transform: uppercase;
@@ -11,4 +12,43 @@
     line-height: 132px;
     text-align: start;
     font-weight: 500;
+}
+
+.ProjectsSingleCard {
+    display: flex;
+    justify-content: baseline;
+}
+
+.leftSideColumn {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.rightSideColumn {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSideColumn img {
+    width: 80%;
+    border-radius: 30px;
+    transition: .5s;
+}
+.rightSideColumn:hover img {
+    width: 80%;
+    border-radius: 50px;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.ProjectBtn {
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 50px;
+    color: white;
+    font-size: 20px;
 }

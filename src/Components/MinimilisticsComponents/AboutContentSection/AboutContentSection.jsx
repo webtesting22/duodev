@@ -18,30 +18,30 @@ const AboutContentSection = () => {
 
     const AppKeyPoints = [
         {
-            link: "Transforming Ideas into Powerful Apps",
-            keypoint: "Empower your mobile presence with [Your Company Name], where we transform concepts into impactful mobile solutions. From startups to enterprises, our custom-built apps drive engagement and growth across Android and iOS platforms, leveraging cutting-edge technologies and best practices."
+            link: "Customized Digital Solutions",
+            keypoint: "We believe that every business is unique, and that's why we take a tailored approach to digital development. Our team of expert developers, designers, and strategists work closely with our clients to understand their goals, challenges, and vision. We then craft bespoke digital solutions that meet their specific needs, whether it's a mobile app, website, or e-commerce platform. Our customized approach ensures that our clients get the exact solution they need to succeed in the digital landscape."
         },
         {
-            link: "Agile Development and User-Centric Design",
-            keypoint: "Centered on user-centric design and robust functionality, [Your Company Name] crafts mobile apps with agile methodologies for rapid delivery and continuous enhancement. From concept to deployment, our end-to-end services encompass UI/UX design, backend development, testing, and maintenance, ensuring seamless adaptation to evolving market demands."
+            link: "Innovative Technology Expertise",
+            keypoint: "We're constantly pushing the boundaries of what's possible with technology. Our team of experts stays up-to-date with the latest trends, tools, and platforms, ensuring that our clients benefit from the most innovative and effective solutions. From AI and machine learning to blockchain and IoT, we're always exploring new ways to leverage technology to drive business growth. Our expertise spans multiple areas, including mobile app development, web development, and digital marketing."
         },
         {
-            link: "Expert Mobile App Innovation and Excellence Unleashed",
-            keypoint: "Collaborate with [Your Company Name] for unmatched expertise and innovation in mobile app development. Elevate your app's presence in the market with superior user experiences and business-driven outcomes, exceeding expectations every step of the way. Let's craft an app that sets new standards in the industry."
+            link: "Collaborative Partnership Approach",
+            keypoint: "We believe that the best solutions come from working together. That's why we take a collaborative approach to every project, working closely with our clients to understand their needs, goals, and vision. Our team is dedicated to delivering exceptional results, and we're committed to being a trusted partner every step of the way. We believe that transparency, communication, and trust are essential to a successful partnership, and we strive to build long-term relationships with our clients."
         },
     ]
     const WebKeyPoints = [
         {
-            link: "Dynamic Web Development for Business Growth",
-            keypoint: "Harnessing state-of-the-art technologies, [Your Company Name] crafts dynamic websites that seamlessly merge form and function. From corporate sites to custom applications, we design tailored solutions for your digital success."
+            link: "Pioneering Web Architecture",
+            keypoint: "We design and develop websites that are the epitome of modern web architecture. By leveraging the latest advancements in Progressive Web Apps (PWAs), Single-Page Applications (SPAs), and Headless CMS, we create fast, secure, and scalable online platforms that provide an unparalleled user experience. Our expertise in responsive design and mobile-first development ensures that your website is optimized for any device, anywhere."
         },
         {
-            link: "Collaborative and Scalable Web Solutions",
-            keypoint: "With a meticulous and collaborative approach, we tailor each project to meet your business objectives, ensuring measurable outcomes. From scalable architecture to seamless integration, our comprehensive services lay a solid foundation for your online success."
+            link: "Intelligent Digital Storytelling",
+            keypoint: "We believe that every brand has a unique story to tell. Our team of expert UX/UI designers, content strategists, and front-end developers work in tandem to craft compelling digital narratives that resonate with your target audience. By harnessing the power of interactive design, micro-interactions, and immersive storytelling, we bring your brand to life, fostering emotional connections and driving engagement."
         },
         {
-            link: "Expert Web Development: Drive Online Success",
-            keypoint: "Elevate your online presence with [Your Company Name], where expertise meets dedication to quality. Experience innovative solutions that attract, retain, and propel growth, making your vision a standout reality in the digital realm."
+            link: "Data-Driven Optimization and Insights",
+            keypoint: "In today's data-driven landscape, making informed decisions is crucial. Our team of data analysts and SEO specialists leverage Google Analytics, A/B testing, and machine learning algorithms to provide actionable insights that optimize your website's performance. By identifying areas of improvement and opportunities for growth, we help you refine your online strategy, driving ROI, improving customer satisfaction, and increasing conversion rates."
         }
     ]
     return (
@@ -63,7 +63,7 @@ const AboutContentSection = () => {
                         <div className="imagesAndTitleContainer">
                             <h1>App <br /><span>Dev</span></h1>
                             <div className="absoluteContainerCard parallax" style={{ transform: `translateY(${scrollY * 0.1}px)` }}>
-                                <button className="btn-style-border">Hrllo</button>
+                                <button className="btn-style-border">App Projects</button>
                             </div>
                         </div>
                         <div className="keyPointsContainer" >
@@ -93,7 +93,7 @@ const AboutContentSection = () => {
                             <h1>Web <br /><span>Dev</span></h1>
                             <div className="absoluteContainerCard parallax" style={{ transform: `translateY(${scrollY * 0.1}px)` }}>
                                
-                                <button className="btn-style-transparent">Hrllo</button>
+                                <button className="btn-style-transparent">Web Projects</button>
                             </div>
                         </div>
                         <div className="keyPointsContainer" >

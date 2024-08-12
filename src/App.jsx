@@ -10,7 +10,7 @@ import Navigation from "./Components/Navigation/Navigation";
 const App = () => {
   return (
     <Router>
-      <Navigation />
+      {/* <Navigation /> */}
       <Routes>
 
         {/* <Route exact path="/" element={<Navigation />} /> */}

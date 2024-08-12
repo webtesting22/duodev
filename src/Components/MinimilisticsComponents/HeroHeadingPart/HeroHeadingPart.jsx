@@ -4,7 +4,7 @@ const HeroHeadingPart = () => {
     return (
         <>
             <section className="HeroHeadingSection">
-                <h1>Proficient Digital Solution <br /><span>Architects</span></h1>
+                <h1>Lighting the Way to<br /><span> Innovation</span></h1>
                 <br />
                 <p>Empowering Businesses with Innovative Digital Solutions, Crafting Excellence for Tomorrow's Challenges.</p>
                 <br />

@@ -37,9 +37,11 @@ const HeroSection = () => {
                         <h1 ref={sectionRef}>
                             <TypeAnimation
                                 sequence={[
-                                    'Creative',
+                                    'Imagine',
                                     1000,
-                                    'Productivity',
+                                    'Engineer',
+                                    1000,
+                                    'Elevate',
                                     1000,
                                 ]}
                                 wrapper="span"
@@ -59,13 +61,15 @@ const HeroSection = () => {
             <section>
                 <div className="AboutCompanyParagraph">
                     <div className="paragraph-container" ref={sectionRef}>
-                        <p>We're your premier web and app development experts,
-                            crafting tailored digital solutions with cutting-edge technology
-                            and creative flair. Whether it's a striking website or a seamless mobile app,
-                            we excel in exceeding your expectations.
+                        <p>At [Company Name], we empower businesses to thrive in the digital age. As a leading provider of innovative app and
+                            web development solutions, we harness the power of technology to drive growth, improve efficiency, and enhance customer
+                            experiences. With a team of expert developers, designers, and strategists, we craft bespoke digital products that meet the
+                            unique needs of our clients. From conceptualization to deployment, we deliver end-to-end solutions that are tailored to drive
+                            real results. Whether you're a startup looking to disrupt the market or an established enterprise seeking to optimize your
+                            digital presence, we partner with you to bring your vision to life.
                             <TypeAnimation
                                 sequence={[
-                                    'With transparent collaboration from concept to launch, we ensure your involvement every step of the way. Trust us to elevate your online presence and drive your success in the digital realm.',
+                                    'With a passion for innovation and a commitment to excellence, we help businesses like yours succeed in an ever-evolving digital landscape.',
                                     3000,
                                 ]}
                                 wrapper="span"
