@@ -54,7 +54,7 @@ const Projects = () => {
                                             {item.ProjectDescription}
                                             <br /><br />
                                             {item.ProjectLink && (
-                                                <button className="btn-style-transparent"> <a href={item.ProjectLink} target="_blank">Download Now</a></button>
+                                                <button className="btn-style-border"> <a href={item.ProjectLink} target="_blank">Download Now</a></button>
 
                                             )}
                                         </div>

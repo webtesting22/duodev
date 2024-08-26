@@ -8,7 +8,7 @@ const Navigation = () => {
     const [isDarkMode, setIsDarkMode] = useState(false); // State to track dark mode
 
     const NavigationLinks = [
-        { link: "Home" },
+        // { link:  },
         { link: "AboutUs" },
         { link: "Projects" },
         // { link: "Works", hasDropdown: true }, // Add hasDropdown property for link with dropdown

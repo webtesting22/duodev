@@ -52,9 +52,9 @@
 .ProjectCardContainer{
     padding: 50px 20px;
 }
-.btn-style-transparent a{
-    color: black;
+.btn-style-border a{
+    color: white;
 }
-.btn-style-transparent:hover a{
+.btn-style-border:hover a{
     color: white;
 }
