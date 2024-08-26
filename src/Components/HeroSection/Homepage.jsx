@@ -11,21 +11,21 @@ const HeroSection = () => {
     const sectionRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
 
-    useEffect(() => {
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    setIsVisible(true);
-                }
-            });
-        });
+    // useEffect(() => {
+    //     const observer = new IntersectionObserver((entries) => {
+    //         entries.forEach((entry) => {
+    //             if (entry.isIntersecting) {
+    //                 setIsVisible(true);
+    //             }
+    //         });
+    //     });
 
-        observer.observe(sectionRef.current);
+    //     observer.observe(sectionRef.current);
 
-        return () => {
-            observer.unobserve(sectionRef.current);
-        };
-    }, []);
+    //     return () => {
+    //         observer.unobserve(sectionRef.current);
+    //     };
+    // }, []);
 
     return (
         <>

@@ -66,7 +66,7 @@ const AboutUs = () => {
                                 <div className="leftSideBottom" style={{ position: "relative" }}>
                                     <div style={{ display: "flex", justifyContent: "space-between", width: "100%", }}>
                                         <div>
-                                            <h1 className="commonNumber">5 0+</h1>
+                                            <h1 className="commonNumber">50+</h1>
                                             <h4 className="commonHeading">Unique Landing pages</h4>
                                         </div>
                                         <img src={CardInside} alt="" style={{ width: "40%", position: "absolute", bottom: "0px", right: "20px" }} />

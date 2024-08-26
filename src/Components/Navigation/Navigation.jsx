@@ -10,7 +10,7 @@ const Navigation = () => {
     const NavigationLinks = [
         { link: "Home" },
         { link: "AboutUs" },
-        // { link: "Blogs" },
+        { link: "Projects" },
         // { link: "Works", hasDropdown: true }, // Add hasDropdown property for link with dropdown
         // { link: "Supporters" }
     ];
