@@ -27,6 +27,26 @@ const Projects = () => {
             ProjectDescription: "SSA is a dedicated application for authorized drivers providing transportation services to Gujarat Government Schools through Samgra Shiksha Abhiyan. The app records all trips, allowing drivers to manage student attendance and view their earnings. Integrated with Google Maps and Firebase Authentication, it enables real-time tracking, notifications for overspeed and off-route driving, and features an SOS Call function for emergencies, ensuring a secure and efficient transportation system.",
             ProjectLink: "https://play.google.com/store/apps/details?id=in.ssavtsv2&hl=en_US"
         },
+        {
+            ProjectHeading: "Clotheslyne",
+            ProjectDescription: "Say goodbye to laundry day hassles with Clotheslyne, the ultimate laundry service app for busy individuals and businesses. Easily book laundry services, schedule convenient pick-up and drop-off times, and enjoy the ease of online payments—all from your phone. Whether you need a quick wash or full-service care, Clotheslyne ensures your clothes are returned fresh and clean. Designed for both users and laundry service owners, our app makes laundry management simple, efficient, and stress-free.",
+            ProjectLink: "https://play.google.com/store/apps/details?id=com.clotheslyne.customer&hl=en-IN"
+        },
+        {
+            ProjectHeading: "Crossfit",
+            ProjectDescription: "Unlock your full fitness potential with CROSSFIT, the ultimate app for gym members and trainers alike. Exclusively designed for trainers to manage their clients, CROSSFIT allows trainers to easily add members, schedule personalized fitness classes, and create tailored diet plans. Members can effortlessly track their workouts, view their class schedules, and access a library of fitness videos, including Zumba and other popular routines. Additionally, the app offers a convenient marketplace for purchasing fitness products like protein powder and supplements, ensuring all your fitness needs are met in one place.",
+            ProjectLink: "https://play.google.com/store/apps/details?id=crossfit.personaltrainer.gymtrainer.fitness&hl=en-IN"
+        },
+        {
+            ProjectHeading:"Prepseed",
+            ProjectDescription:"Prepseed is an all-in-one educational app designed to streamline school management and enhance communication between principals, teachers, students, and parents. Tailored to each user role, Prepseed offers a comprehensive set of modules, including attendance tracking, assignment management, direct messaging, test administration, fee processing, and event coordination. Whether you're overseeing school operations, teaching, learning, or staying informed as a parent, Prepseed provides a seamless, user-friendly experience that keeps everyone connected and organized.",
+            ProjectLink:"https://play.google.com/store/apps/details?id=com.prepseed&hl=en-IN"
+        },
+        {
+            ProjectHeading:"Bakery Shop",
+            ProjectDescription:"Bakery Shop is the perfect app for both bakery owners and customers. As an owner, easily manage your orders with a clear view of pending and completed tasks, ensuring smooth operations. For customers, Bakery Shop offers a delightful browsing experience where you can select your favorite cakes and bakery items from an extensive menu. Once you've made your choices, simply complete your order with secure online payments, and enjoy your treats in no time.",
+            // ProjectLink:"https://play.google.com/store/apps/details?id=com.prepseed&hl=en-IN"
+        }
     ]
     return (
         <>

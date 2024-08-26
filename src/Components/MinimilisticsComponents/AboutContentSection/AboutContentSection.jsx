@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
-import "./AboutContentSection.css"; // Import CSS file for animation
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import "./AboutContentSection.css"; // Import CSS file for animati
+import ReactPlayer from 'react-player'
 const AboutContentSection = () => {
     const [scrollY, setScrollY] = useState(0);
     useEffect(() => {
@@ -16,6 +15,7 @@ const AboutContentSection = () => {
         };
     }, []);
 
+    const videoUrl = "./webdevVideo.mp4";
     const AppKeyPoints = [
         {
             link: "Customized Digital Solutions",
@@ -63,6 +63,15 @@ const AboutContentSection = () => {
                         <div className="imagesAndTitleContainer">
                             <h1>App <br /><span>Dev</span></h1>
                             <div className="absoluteContainerCard parallax" style={{ transform: `translateY(${scrollY * 0.1}px)` }}>
+                                <ReactPlayer
+                                    url={videoUrl}
+                                    playing
+                                    loop
+                                    muted
+                                    width="100%"
+                                    height="100%"
+                                    className="video-player"
+                                />
                                 <button className="btn-style-border">App Projects</button>
                             </div>
                         </div>
@@ -92,7 +101,7 @@ const AboutContentSection = () => {
                         <div className="imagesAndTitleContainer">
                             <h1>Web <br /><span>Dev</span></h1>
                             <div className="absoluteContainerCard parallax" style={{ transform: `translateY(${scrollY * 0.1}px)` }}>
-                               
+
                                 <button className="btn-style-transparent">Web Projects</button>
                             </div>
                         </div>
