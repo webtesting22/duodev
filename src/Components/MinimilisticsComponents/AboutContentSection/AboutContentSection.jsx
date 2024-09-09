@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./AboutContentSection.css"; // Import CSS file for animati
 import ReactPlayer from 'react-player'
+import { Link } from "react-router-dom";
 const AboutContentSection = () => {
     const [scrollY, setScrollY] = useState(0);
     useEffect(() => {
@@ -72,7 +73,7 @@ const AboutContentSection = () => {
                                     height="100%"
                                     className="video-player"
                                 />
-                                <button className="btn-style-border">App Projects</button>
+                                <Link to="/projects"><button className="btn-style-border">App Projects</button></Link>
                             </div>
                         </div>
                         <div className="keyPointsContainer" >
@@ -101,8 +102,7 @@ const AboutContentSection = () => {
                         <div className="imagesAndTitleContainer">
                             <h1>Web <br /><span>Dev</span></h1>
                             <div className="absoluteContainerCard parallax" style={{ transform: `translateY(${scrollY * 0.1}px)` }}>
-
-                                <button className="btn-style-transparent">Web Projects</button>
+                                <Link to="/projects"><button className="btn-style-transparent">Web Projects</button></Link>
                             </div>
                         </div>
                         <div className="keyPointsContainer" >
