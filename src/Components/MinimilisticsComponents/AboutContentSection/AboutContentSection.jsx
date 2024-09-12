@@ -2,6 +2,8 @@ import React, { useRef, useEffect, useState } from "react";
 import "./AboutContentSection.css"; // Import CSS file for animati
 import ReactPlayer from 'react-player'
 import { Link } from "react-router-dom";
+import Web from "./Web.jpg"
+import App from "./App.jpg"
 const AboutContentSection = () => {
     const [scrollY, setScrollY] = useState(0);
     useEffect(() => {
@@ -64,15 +66,7 @@ const AboutContentSection = () => {
                         <div className="imagesAndTitleContainer">
                             <h1>App <br /><span>Dev</span></h1>
                             <div className="absoluteContainerCard parallax" style={{ transform: `translateY(${scrollY * 0.1}px)` }}>
-                                <ReactPlayer
-                                    url={videoUrl}
-                                    playing
-                                    loop
-                                    muted
-                                    width="100%"
-                                    height="100%"
-                                    className="video-player"
-                                />
+                                <img src={Web} alt="" style={{width:"100%"}} />
                                 <Link to="/projects"><button className="btn-style-border">App Projects</button></Link>
                             </div>
                         </div>
@@ -100,9 +94,10 @@ const AboutContentSection = () => {
 
                     <div className="MainserviceRow">
                         <div className="imagesAndTitleContainer">
-                            <h1>Web <br /><span>Dev</span></h1>
+                            <h1>Web <span>Dev</span></h1>
                             <div className="absoluteContainerCard parallax" style={{ transform: `translateY(${scrollY * 0.1}px)` }}>
-                                <Link to="/projects"><button className="btn-style-transparent">Web Projects</button></Link>
+                                <img src={App} alt=""  style={{width:"100%"}}/>
+                                <Link to="/projects"><button className="btn-style-border">Web Projects</button></Link>
                             </div>
                         </div>
                         <div className="keyPointsContainer" >

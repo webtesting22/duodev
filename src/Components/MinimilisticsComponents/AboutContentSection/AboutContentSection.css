@@ -97,6 +97,8 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    display: flex;
+    flex-direction: column;
 }
 
 .imagesAndTitleContainer h1 span {
@@ -117,6 +119,7 @@
     top: -30px;
     backdrop-filter: blur(5px);
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .SEOFreidlyLinks h5 {
@@ -141,6 +144,7 @@
     position: absolute;
     bottom: 0;
     margin: 0px;
+    left: 0px;
 }
 
 .rocket-container {
@@ -189,6 +193,20 @@
 }
 
 @media (max-width:900px){
+    .imagesAndTitleContainer h1 {
+        font-size: 4rem;
+        font-weight: 400;
+        background-image: linear-gradient(145deg, #e06b91, #f19742);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .imagesAndTitleContainer h1 span{
+        margin-left: 5px;
+    }
     .thirdBox {
         background-color: transparent;
         position: absolute;
@@ -207,6 +225,7 @@
         top: -120px;
         backdrop-filter: blur(5px);
         border-radius: 20px;
+        display: none;
     }
     
     .MainserviceRow {
@@ -216,7 +235,7 @@
         position: relative;
     }
     .section-heading-style {
-        font-size: 6rem;
+        font-size: 4rem;
         text-align: center;
         background-image: linear-gradient(145deg, #e06b91, #f19742);
         -webkit-background-clip: text;
@@ -228,11 +247,11 @@
     }
     .imagesAndTitleContainer {
         position: relative;
-        height: 50vh;
+        height: 10vh;
     }
     
 .AboutCompanyServices {
-    padding: 50px 50px;
+    padding: 50px 10px;
     overflow: hidden;
     /* background-color: red; */
 }

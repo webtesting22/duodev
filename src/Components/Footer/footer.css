@@ -100,4 +100,17 @@
         background-color: #171515;
         padding: 2rem 1rem;
     }
+    .bigHeadingFooter h1:first-child {
+        font-size: 60px;
+        font-weight: 500;
+        color: white;
+    }
+    
+.bigHeadingFooter h1:last-child {
+    font-size: 60px;
+    color: #707070;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: start;
+}
 }
