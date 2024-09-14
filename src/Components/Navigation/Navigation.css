@@ -64,10 +64,13 @@
     display: flex;
 }
 .nav-links-dark a{
-    color: white;
+    color: unset;
 }
 .nav-links-light a{
-    color: black;
+    color: unset;
+}
+a{
+    color: unset;
 }
  @media (max-width:769px){
     #top-navigation-header .right-side-links-navigation .PCNavigation {

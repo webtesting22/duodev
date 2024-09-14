@@ -25,11 +25,13 @@ h5,
 h6,
 p {
   margin: 0px;
+  color: unset;
 }
 
 body {
   padding: 0px;
   margin: 0px;
+  color: unset;
 }
 
 html body {
@@ -81,7 +83,7 @@ html body {
   border: 1px solid #000000;
   background-color: transparent;
   box-shadow: 0 4px 10px 0 rgba(20, 20, 43, .04);
-  /* color: #000000; */
+  color: unset;
   text-align: center;
   transform-style: preserve-3d;
   border-radius: 10px;
@@ -96,7 +98,7 @@ html body {
   border: 1px solid #000000;
   background-color: rgb(0, 0, 0);
   box-shadow: 0 4px 10px 0 rgba(20, 20, 43, .04);
-  color: #ffffff;
+  color: unset;
   text-align: center;
   transform-style: preserve-3d;
   border-radius: 10px;
@@ -123,4 +125,10 @@ html body {
 .subheadings{
   font-size: 26px;
   
+}
+.ant-tabs .ant-tabs-tab{
+color: unset;
+}
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  color: unset;
 }

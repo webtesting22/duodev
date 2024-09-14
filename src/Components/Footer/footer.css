@@ -1,8 +1,10 @@
 #Footer {
     background-color: #171515;
     padding: 0rem 5rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .SocialMediaIcons {
@@ -47,7 +49,7 @@
 .FooterBtn {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     margin: 20px 0px;
 }
 
@@ -94,7 +96,22 @@
 .copyRightText p {
     color: #707070;
 }
+.AgiluxCopyright{
+    display: flex;
+    justify-content: space-between;
+}
+.AgiluxBrandingText h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.AgiluxBrandingText{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 
+}
 @media (max-width:769px) {
     #Footer {
         background-color: #171515;

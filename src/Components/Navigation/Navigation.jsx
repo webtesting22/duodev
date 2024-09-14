@@ -45,7 +45,7 @@ const Navigation = () => {
             <nav>
                 <header id="top-navigation-header">
                     <div className="left-side-logo-navigation">
-                        <h5>Hello</h5>
+                        <Link to="/"><h3>Agilux</h3></Link>
                     </div>
                     <div className="right-side-links-navigation">
                         <div className="PCNavigation">
