@@ -61,7 +61,7 @@ const HeroSection = () => {
             <section>
                 <div className="AboutCompanyParagraph">
                     <div className="paragraph-container" ref={sectionRef}>
-                        <p>At [Company Name], we empower businesses to thrive in the digital age. As a leading provider of innovative app and
+                        <p>At Agilux, we empower businesses to thrive in the digital age. As a leading provider of innovative app and
                             web development solutions, we harness the power of technology to drive growth, improve efficiency, and enhance customer
                             experiences. With a team of expert developers, designers, and strategists, we craft bespoke digital products that meet the
                             unique needs of our clients. From conceptualization to deployment, we deliver end-to-end solutions that are tailored to drive
